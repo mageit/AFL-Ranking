@@ -10,9 +10,9 @@ import React, {PropTypes} from 'react';
  */
 const Player = ({position, team, player, detailedRatings}) => (
     <div className="table-row">
-        <div className="row-item">{detailedRatings[0].ranking}</div>
-        <div className="row-item">{player.playerName.givenName + " " + player.playerName.surname}</div>
-        <div className="row-item">{team.teamName}</div>
+        <div className="row-item"><span className="ranking-background">{detailedRatings[0].ranking}</span></div>
+        <div className="row-item blue-font">{player.playerName.givenName + " " + player.playerName.surname}</div>
+        <div className="row-item blue-font">{team.teamName}</div>
         <div className="row-item">{position}</div>
     </div>
 );
