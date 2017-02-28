@@ -5,7 +5,7 @@ const { List } = Immutable;
 const init = List();
 
 /**
- * Players reducer - analysing the type of action and generate the new state
+ * Players reducer - analysing the type of action and generate the new state of players
  *
  * @param state
  * @param action

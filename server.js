@@ -1,8 +1,6 @@
-//
-// /             serves mosaic.html
-// /(js|css)/*   serves static files
-// /color/<hex>  generates a tile for the color <hex>
-//
+/**
+ * NodeJS server to handle the html, js, css and json file types.
+ */
 var fs = require('fs');
 var http = require('http');
 var url = require('url');
