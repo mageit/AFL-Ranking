@@ -2,6 +2,11 @@ const fetchRatings = function() {
     return fetch('./ratings.json');
 };
 
+/**
+ * Send the action to players reducer to indicate the state needs to be updated.
+ * @param players
+ * @returns {{type: string, players: *}}
+ */
 export function initialAllRatings(players){
     return {
         type: "SET_INITIAL_RATINGS",
