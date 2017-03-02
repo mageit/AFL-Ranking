@@ -6,3 +6,6 @@ ReactJS, Redux, ImmutableJS, NodeJS
 2. npm run start
 
 3. Go to http://localhost:8765/
+
+# Test (Run below commands step by step)
+1. npm run test
